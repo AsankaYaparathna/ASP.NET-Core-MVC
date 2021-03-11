@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BLabs.Data;
 using BLabs.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BLabs.Controllers
 {
+    [Authorize]  //[Athorize] is use to forms Authentications
     public class BooksController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,6 +24,8 @@ namespace BLabs.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
+            
+            
             return View(await _context.Book.ToListAsync());
         }
 

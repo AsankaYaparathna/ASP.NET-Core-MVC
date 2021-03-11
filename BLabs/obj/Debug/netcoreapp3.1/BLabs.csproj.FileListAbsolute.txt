@@ -193,3 +193,11 @@ D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Views
 D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Views\Users\Details.cshtml.g.cs
 D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Views\Users\Edit.cshtml.g.cs
 D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Views\Users\Index.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Views\Users\Login.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\Projects\ASP.NET Core\Test 02\BLabs\BLabs\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_Auhth_Layout.cshtml.g.cs

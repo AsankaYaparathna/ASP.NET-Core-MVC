@@ -22,7 +22,24 @@ namespace BLabs.Controllers
         // GET: Users
         public async Task<IActionResult> Index()
         {
+            
             return View(await _context.userDB.ToListAsync());
+        }
+
+
+        // User : Login
+
+        public async Task<IActionResult> Login(Users ob)
+        {
+            if (UserValidate(ob.UserName, ob.password) == true)
+            {
+                return RedirectToAction("Index","Home");
+            }
+            else
+            {
+                 ModelState.AddModelError("Model", "UserName or Password is incorect");
+                return View(ob);
+            }
         }
 
         // User : Validation
@@ -31,8 +48,12 @@ namespace BLabs.Controllers
         {
             bool sts=false;
 
-            int CountUser = _context.Users.Count();
+            int CountUser = _context.userDB.Count(x => x.UserName == un && x.password == pw);
 
+            if (CountUser == 1)
+            {
+                sts = true;
+            }
             return sts;
 
         }
